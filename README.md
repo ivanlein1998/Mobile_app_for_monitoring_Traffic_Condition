@@ -14,7 +14,8 @@ Step of running this system:
 	1.1 in order to exectue run.bat correctly you to to install python library by the following command "pip install pytorch torchvision cudatoolkit=10.2 -c pytorch" and "pip install visdom scikit-image tqdm fire ipdb pprint matplotlib torchnet"
 2. execute  command "npx react-native run-android "to run App.js which is the mobile application (you need to install android emulator or connected to a real android device)
 
-Detected Image:
+Smaeple Detected Image:
+
 ![img](vehicle_detection_model/imgs/90th_st_detected.jpg)
 ![img](vehicle_detection_model/imgs/camelback_rd_detected.jpg)
 ![img](vehicle_detection_model/imgs/glendale_ave_detected.jpg)
