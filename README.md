@@ -1,5 +1,7 @@
 '/vehicle_detection_model' is the faster-rcnn object detection model of the system
+
 '/trafficmonitoringsystem' is the mobile application of the system
+
 '/Web_scraper' is the web scraper of the system
 
 Attention!!!
