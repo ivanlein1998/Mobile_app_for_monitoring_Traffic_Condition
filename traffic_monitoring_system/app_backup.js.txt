@@ -1,0 +1,85 @@
+import React from "react";
+import { StyleSheet, Text, View, Image} from "react-native";
+import MapView, { Callout, Marker, PROVIDER_GOOGLE } from 'react-native-maps'; // remove PROVIDER_GOOGLE import if not using Google Maps=
+import * as firebase from 'firebase';
+
+var carCount = [0,0,0,0,0,0,0]
+
+const styles = StyleSheet.create({
+ container: {
+   height: '100%',
+   width: '100%',
+   justifyContent: 'flex-end',
+   alignItems: 'center'
+ },
+ map: {
+    height: '100%',
+    width: '100%'
+ },
+});
+
+
+export default class google_map extends React.Component{
+  render(){
+    return(
+      <View style={styles.container}>
+        <MapView
+          provider={PROVIDER_GOOGLE} // remove if not using Google Maps
+          style={styles.map}
+          region={{
+            latitude: 33.5,
+            longitude: -112.0,
+            latitudeDelta: 0.5,
+            longitudeDelta: 0.5,
+          }}>
+          <Marker
+            coordinate = {{latitude: 33.464316980770015, longitude: -112.2970453667987}}
+            title = {'mcdowell_rd'}>
+            <Callout>
+            <Text>Phoenix, McDowell Road, Car Count:{carCount[0]}<Image source ={ require('./imgs/mcdowell_rd_detected.jpg')}/></Text>
+            </Callout>
+          </Marker>
+          <Marker
+            coordinate = {{latitude: 33.61997380149239, longitude: -111.89127517419321}}
+            title = {'90th_st'}>
+            <Callout>
+              <Text>Scottsdale, North 90th street, Car Count:{carCount[1]}<Image source ={ require('./imgs/90th_st_detected.jpg')}/></Text>
+            </Callout>
+          </Marker>
+          <Marker
+            coordinate = {{latitude: 33.50220961274939, longitude: -111.93901069563307}}
+            title = {'camelback_rd'}>
+            <Callout>
+              <Text>Phoenix, Camelback road, Car Count:{carCount[2]}<Image source ={ require('./imgs/camelback_rd_detected.jpg')}/></Text>   
+            </Callout>
+          </Marker>
+          <Marker
+            coordinate = {{latitude: 33.538008936928726, longitude: -112.2161421821383}}
+    
+            title = {'glendale_ave'}>
+            <Callout>
+              <Text>Glendale, West Glendale Avenue, Car Count:{carCount[3]}<Image source ={ require('./imgs/glendale_ave_detected.jpg')}/></Text>
+            </Callout>
+          </Marker>
+          <Marker
+            coordinate = {{latitude: 33.55274312777665, longitude: -112.20729846679637}}
+            title = {'northern_ave'}>
+
+            <Callout>
+              <Text>Glendale, Northern Parkway, Car Count:{carCount[4]}<Image source ={ require('./imgs/northern_ave_detected.jpg')}/></Text>
+            </Callout>
+          </Marker>
+          <Marker
+            coordinate = {{latitude: 33.55342554514627, longitude: -111.8937726091256}}
+            title = {'via_de_ventura'}>
+
+            <Callout>
+              <Text>Scottsdale, Via de ventura, Car Count:{carCount[5]}<Image source ={ require('./imgs/via_de_ventura_detected.jpg')}/></Text>
+              
+            </Callout>
+          </Marker>
+        </MapView>
+    
+  </View>)
+  }
+}
