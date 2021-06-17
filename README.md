@@ -1,6 +1,6 @@
 file '/vehicle_detection_model' is the faster-rcnn object detection model of the system
 file '/trafficmonitoringsystem' is the mobile application of the system
-file '/web_scraper' is the web scraper of the system
+file '/Web_scraper' is the web scraper of the system
 
 you need to edit the file path used in the python file in order to run it correctly, for example change the file path of run.py in line 26 from r'C:\vehicle_detection_model\model\fasterrcnn_55235744.pth' to r'your_local_machine_file_path' to load the vehicle detection model correctly
 
