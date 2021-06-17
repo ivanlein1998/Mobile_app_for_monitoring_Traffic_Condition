@@ -27,4 +27,3 @@ Step of running this system:
 
 ## 4.  Mobile Application interface:
 ![img](imgs/image.png)
-![img](imgs/phone_emu.png)
