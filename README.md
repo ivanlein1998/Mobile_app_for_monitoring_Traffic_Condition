@@ -4,7 +4,7 @@
 
 '/Web_scraper' is the web scraper of the system
 
-<span style="color:red;">Attention!!!
+<span style="color:orange;">Attention!!!
 This repo does not contain any gradle, dependencies and node modules files due to size limitation, you need to modify the gradle and install dependency by yourself (include firebase, react-native-maps,react-native-svg and react-native)</span>
 
 
