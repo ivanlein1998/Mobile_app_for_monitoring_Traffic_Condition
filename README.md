@@ -23,8 +23,7 @@ The Mobile application is connected to Google Maps API, Google Maps allow develo
 
 ![img](imgs/image.png)
 
-## 5.  Attention:
-Attention!!!
+## 5.  Attention!!!
 This repo does not contain any gradle, dependencies and node modules files due to size limitation, you need to modify the gradle and install dependency by yourself (include firebase, react-native-maps,react-native-svg and react-native)
 
 '/vehicle_detection_model' is the faster-rcnn object detection model of the system
