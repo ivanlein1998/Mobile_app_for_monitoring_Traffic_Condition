@@ -21,7 +21,7 @@ Step of running this system:
 ![img](vehicle_detection_model/imgs/via_de_ventura_detected.jpg)
 
 ## 4.  Mobile Application interface:
-The Mobile application is connected to Google Maps API, Google Maps allow developer to customized the maps, mobile application will retrieve the traffic data from database, and then use data – VehiceleCount to create a marker, the icon of the marker represent the number of car detected in that road.
+The Mobile application is developed on React Native connected to Google Maps API, Google Maps allow developer to customized the maps, mobile application will retrieve the traffic data from database, and then use data – VehiceleCount to create a marker, the icon of the marker represent the number of car detected in that road.
 
 ![img](imgs/image.png)
 
