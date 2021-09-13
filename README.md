@@ -23,7 +23,7 @@ Step of running this system:
 ## 4.  Mobile Application interface:
 The Mobile application is developed on React Native and connected to Google Maps API (React_Native_Maps), Google Maps allow developer to customized the maps, mobile application will retrieve the traffic data from database, and then use data – VehiceleCount to create a marker, the icon of the marker represent the number of car detected in that road.
 
-![img](imgs/image.png)
+![img](imgs/image.jpg)
 
 ## 5.  Attention!!!
 This repo does not contain any gradle, dependencies and node modules files due to size limitation, you need to modify the gradle and install dependency by yourself (include firebase, react-native-maps,react-native-svg and react-native)
