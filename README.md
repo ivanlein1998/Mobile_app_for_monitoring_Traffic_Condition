@@ -20,12 +20,16 @@ Step of running this system:
 ![img](vehicle_detection_model/imgs/northern_ave_detected.jpg)
 ![img](vehicle_detection_model/imgs/via_de_ventura_detected.jpg)
 
-## 4.  Mobile Application interface:
+## 4.  Training result 
+The training result of the Faster-RCNN model is visualized by visdom, here are one of the training data visualizztion photo:
+![img](imgs/4_cap.png)
+
+## 5.  Mobile Application interface:
 The Mobile application is developed on React Native and connected to Google Maps API (React_Native_Maps), Google Maps allow developer to customized the maps, mobile application will retrieve the traffic data from database, and then use data – VehiceleCount to create a marker, the icon of the marker represent the number of car detected in that road.
 
 ![img](imgs/image.jpg)
 
-## 5.  Attention!!!
+## 6.  Attention!!!
 This repo does not contain any gradle, dependencies and node modules files due to size limitation, you need to modify the gradle and install dependency by yourself (include firebase, react-native-maps,react-native-svg and react-native)
 
 '/vehicle_detection_model' is the faster-rcnn object detection model of the system
