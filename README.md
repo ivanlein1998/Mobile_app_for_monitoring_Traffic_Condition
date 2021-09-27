@@ -29,8 +29,11 @@ The VGG16 Faster-RCNN object detection model in this project include 6 component
 ## 5.  Training result 
 The training result of the Faster-RCNN model is visualized by visdom, here are one of the training data visualizztion photo:
 ![img](imgs/4_cap.png)
+
 The final performance of object detection is:
-|              mAP              |     0.69     |
+|               Metric             |     value     |
+| :--------------------------------------: | :---------: |
+|              mAP(mean Average Precision)              |     0.69     |
 |               total loss              |     0.23     |
 |               classification loss              |     0.023     |
 |              bounding box regression loss              |     0.036     |
