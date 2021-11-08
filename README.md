@@ -1,5 +1,5 @@
 ## 1. Introduction
-The Traffic Monitoring Systemt is a mobile application of traffic monitoring system that using Faster-RCNN object detection model to count the total number of vehicles in specific road or highway and show the information on mobile app, so that driver can have better understanding of traffic condition on different traffic hotspots. 
+The Traffic Monitoring System is a mobile application of traffic monitoring system that using Faster-RCNN object detection model to count the total number of vehicles in specific road or highway and show the information on mobile app, so that driver can have better understanding of traffic condition on different traffic hotspots. 
 
 It require live webcast image of main road for model training and traffic condition monitoring. On Arizona Department of Transport, they provide a http path for user to get image from their server, we can use https://www.az511.gov/map/Cctv/XXXX-XX (XXXX-Xx represent the webcast ID) to get access with the target road snapshot, all of the data will be stored in Firebase Realtime Database so that user can retrieve the data once the traffic condition is updated and display the information on mobile application interface
 
